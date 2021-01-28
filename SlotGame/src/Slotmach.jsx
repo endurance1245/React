@@ -2,9 +2,11 @@
 import React from "react";
 
 const SlotM = (props) =>{
-        let x=props.x
-        let y=props.y
-        let z=props.z
+        //let x=props.x
+        //let y=props.y
+        //let z=props.z
+
+        let {x,y,z}=props;
     
         if ((x===y) && (y===z))
             return(
